@@ -311,11 +311,19 @@ padding-top: 7.5%
 }
 
 .close-modal{
-    width: 2em;
-    height: 2em;
-    margin-left: 328px;
+margin-left: 328px;
     cursor: pointer;
-    border-radius: 100%;
+    border: none;
+    background: none;
+}
+
+.close-modal svg{
+width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border: #E7E9FC;
+border-radius: 4px;
+    
 }
 
 .overlay {
@@ -363,24 +371,17 @@ width: 360px;
     text-align: left;
 }
 
-.form-group1 input{
-border: 1px solid rgba(46, 47, 66, 0.4);
+.form-group1 textarea{
+     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 100%;
-    height: inherit;
-    text-align: left;
+    height: 40px;
+    
 }
 
 .form-group input:focus,
 .form-group1 textarea:focus{
     outline: 1px solid #4d5ae5;
-}
-
-
-
-.form-group textarea {
-    height: 80px;
-    
 }
 
 .checkbox-group {
@@ -426,7 +427,50 @@ font-family: "Roboto", sans-serif;
     background-color: #0056b3;
 }
 
+.form-group {
+    position: relative;
+}
 
+.input-container {
+    position: relative;
+}
+
+.input-container input{
+    padding-left: 40px;
+}
+
+.fa-user {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.fa-phone{
+position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.fa-envelope{
+    position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+}
+
+.input-container input:focus+.fa-user{
+   color: #4d5ae5; 
+}
+
+.input-container input:focus+.fa-phone{
+   color: #4d5ae5; 
+}
+
+.input-container input:focus+.fa-envelope{
+   color: #4d5ae5; 
+}
 
 
 /*SECTION 1 & 2*/
@@ -456,6 +500,13 @@ margin-right: auto;
 gap: 0.5em;
 width: 16.5em;
 height: 14em;
+
+}
+
+
+
+.feature1 use {
+    transform-origin: center;
 }
 
 .feature2,
