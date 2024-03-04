@@ -325,10 +325,106 @@ padding-top: 7.5%
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+    z-index: 1; 
+}
+
+
+.form-group {
+width: 360px;
+height: 58px;
+}
+
+.form-group1{
+width: 360px;
+height: 149px;
+margin-bottom: 16px;
+}
+#comment{
+width: 360px;
+    height: 120px;
+    margin-bottom: 16px;
+}
+.name-phone-email-comment{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px; 
+        line-height: 1.16667;
+        letter-spacing: 0.04em;
+        color: #8e8f99;
+        display: grid;
+}
+
+.form-group input{
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    text-align: left;
+}
+
+.form-group1 input{
+border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 100%;
+    height: inherit;
+    text-align: left;
+}
+
+.form-group input:focus,
+.form-group1 textarea:focus{
+    outline: 1px solid #4d5ae5;
+}
+
+
+
+.form-group textarea {
+    height: 80px;
     
 }
 
+.checkbox-group {
+
+    margin-right: 10px;
+    margin-bottom: 24px;
+}
+
+.checkbox-group label {
+font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px; 
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    line-height: 16px; 
+
+}
+
+.checkbox-group label a{
+    line-height: 16px; 
+        line-height: 1.33333;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #4d5ae5;
+}
+
+
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+        padding: 16px 32px;
+    margin-left: 119px;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
 
 
 
