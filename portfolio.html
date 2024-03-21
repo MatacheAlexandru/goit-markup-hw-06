@@ -61,9 +61,116 @@
               <a href="" class="email">info@devstudio.com</a>
               <a href="" class="phone">+11 (000) 111-11-11</a>
             </span>
+            <button
+              type="button"
+              class="mobile-menu-open js-open-menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <svg class="mobile-menu-open-icon" width="32" height="22">
+                <use
+                  href="./icons/charm_menu-hamburger.svg#charm:menu-hamburger"
+                ></use>
+              </svg>
+            </button>
           </div>
         </div>
       </section>
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+          <div>
+            <button class="mobile-menu_close-btn js-close-menu" type="button">
+              <svg class="mobile-menu_close-icon" width="24" height="24">
+                <use href="./icons/close-button.svg#icon-close"></use>
+              </svg>
+            </button>
+            <ul class="mobile-header-nav list">
+              <li class="mobile-header-item">
+                <a
+                  class="mobile-header-link link mobile-contact-blue"
+                  href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-header-item">
+                <a class="mobile-header-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mobile-header-item">
+                <a class="mobile-header-link link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <address class="mobile-address">
+              <ul class="mobile-address-header list">
+                <li class="mobile-contacts">
+                  <a
+                    class="mobile-contacts-address_tel link"
+                    href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="mobile-contacts">
+                  <a
+                    href="mailto:info@devstudio.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="mobile-contacts-address_mail link"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+
+            <!-- Socal-List-Mob-Menu -->
+
+            <div class="icons-list">
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                class="icon"
+                aria-label="instagram-link"
+              >
+                <svg>
+                  <use href="./icons/symbol-defs.svg#icon-instagram2"></use>
+                </svg>
+              </a>
+              <a
+                href="https://twitter.com/?lang=ro"
+                target="_blank"
+                class="icon"
+                aria-label="twitter-link"
+              >
+                <svg>
+                  <use href="./icons/symbol-defs.svg#icon-twitter1"></use>
+                </svg>
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="icon"
+                aria-label="facebook-link"
+              >
+                <svg>
+                  <use href="./icons/symbol-defs.svg#icon-facebook1"></use>
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="icon"
+                aria-label="linkedin-link"
+              >
+                <svg>
+                  <use href="./icons/symbol-defs.svg#icon-linkedin1"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <main class="portfolio-main">
       <div class="container">
@@ -390,5 +497,6 @@
         </div>
       </section>
     </footer>
+    <script src="java-script/menu-modal.js"></script>
   </body>
 </html>
